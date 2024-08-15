@@ -5,8 +5,8 @@ programa {
     escreva ("\nfabricante: " , "dell")
     inteiro idade = 25
     escreva ("\nidade: " , 25)
-    real salario = 1450.75
-    escreva ("\nsalario: " , salario)
+    real salarioMensal = 1450.75
+    escreva ("\nsalario: " , salarioMensal)
 
     escreva ("\n")
 
@@ -20,13 +20,25 @@ programa {
     
     escreva ("\n")
 
-    //Algoritmo para calcular o total gasto com fralda de um beb�
+    //Algoritmo para calcular o total gasto com fralda de um bebê
     inteiro qtdFraldasDia = 4
     real custoFraldaUnitaria = 1.10
-    real custoToltalMes 
-    custoToltalMes = qtdFraldasDia * 30 * custoFraldaUnitaria
-    escreva ("\ntotal gasto por m�s: ", custoToltalMes)
+    real custoTotalMes 
+    custoTotalMes = qtdFraldasDia * 30 * custoFraldaUnitaria
+    escreva ("\ntotal gasto por mês: ", custoTotalMes)
     
 
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 285; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
